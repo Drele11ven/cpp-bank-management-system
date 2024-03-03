@@ -1,19 +1,41 @@
 # cpp-bank-management-system
 
-a bank management system that writen by me that includes this function:
+A bank management system written in C++ that includes the following functionalities:
 
-1st create account
+1. Create account: Allows the user to create a new bank account.
+2. Make transaction: Enables the user to deposit or withdraw money from their account.
+3. Show maximum and minimum balance: Displays the maximum and minimum balance of all accounts in the system.
+4. Close account: Allows the user to close their account.
+5. Report info: Provides detailed information about the user's account.
+6. Terminate program: Closes the program.
 
-2nd make transaction like deposit and withdraw
+Additionally, the program includes some fun features:
 
-3rd show the maximum and minimum of bank balance account
+- Fee time: Charges a fee for inactivity.
+- Decoration functions: Provides options to customize the appearance of the program, such as moving the cursor to a specific position.
 
-4th close acc
+The program operates based on file data.
 
-5th report info
+## Usage
 
-6th terminate programm
+1. Clone the repository:
 
-
->>also it has some fun features like fee time and some decoaration function like go to xy and etc.
->>i have to mention it that this programm works based on file data
+```
+git clone https://github.com/Drele11ven/cpp-bank-management-system.git
+```
+2. Compile the program:
+```
+g++ -o bank_management main.cpp
+```
+3. Navigate to the project directory:
+```
+cd cpp-bank-management-system
+```
+4. Compile the program:
+```
+g++ -o bank_management main.cpp
+```
+5. Run the program:
+```
+./bank_management
+```
